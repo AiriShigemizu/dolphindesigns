@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import Layout from '../components/layout'
+import '../styles/globals.scss'
+import 'modern-css-reset/dist/reset.min.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({Component, pageProps}) {
+  return (
+    <Layout Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
-
-export default MyApp
