@@ -156,7 +156,6 @@ export default function Home() {
         </GlobalNav>
 
         <Wrapper>
-
           <WorkSection id="works_wolfpack">
             <WorkBox>
               <img src="img/azukaritai.png" alt="#" />
@@ -307,7 +306,6 @@ export default function Home() {
               製作時間：イラスト作成 4 時間、文字入れ・編集 2 時間
             </WorkDetails>
           </WorkSection>
-
         </Wrapper>
       </main>
     </div>
