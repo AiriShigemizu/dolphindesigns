@@ -23,7 +23,5 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_KEY }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET }}
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
-          role-to-assume: 'arn:aws:iam::583782972542:role/dolphindesigns-dev-EnterpriseLogAccessIamRole-KTQCBGB1DBWU'
-          role-session-name: 'IRIE_IAMUSER'
       - name: Deploy Next.js app
         run: npx serverless
