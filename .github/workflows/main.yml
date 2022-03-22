@@ -22,6 +22,6 @@ jobs:
         with:
           aws_access_key_id: ${{ secrets.AWS_KEY }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET }}
-          aws_region: us-east-1
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Deploy Next.js app
         run: npx serverless
